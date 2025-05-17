@@ -1,16 +1,16 @@
 // Objetos con value link
 
 const rutas = {
-  'link_index': '/proyecto_html_css/index.html',
-  'link_subir_meme': '/proyecto_html_css/views/subir_meme.html',
-  'link_inicio': '/proyecto_html_css/views/inicio.html',
-  'link_ultimos': '/proyecto_html_css/views/favoritos.html',
-  'link_trending': '/proyecto_html_css/views/inicio.html',
-  'link_aleatorio': '/proyecto_html_css/views/inicio.html',
-  'link_favoritos': '/proyecto_html_css/views/favoritos.html',
-  'link_subidas': '/proyecto_html_css/views/mis_subidas.html',
-  'link_ranking': '/proyecto_html_css/views/ranking.html',
-  'link_post': '/proyecto_html_css/views/post.html',
+  'link_index': '/index.html',
+  'link_subir_meme': '/views/subir_meme.html',
+  'link_inicio': '/views/inicio.html',
+  'link_ultimos': '/views/favoritos.html',
+  'link_trending': '/views/inicio.html',
+  'link_aleatorio': '/views/inicio.html',
+  'link_favoritos': '/views/favoritos.html',
+  'link_subidas': '/views/mis_subidas.html',
+  'link_ranking': '/views/ranking.html',
+  'link_post': '/views/post.html',
   'link_twitter': 'https://twitter.com',
   'link_instagram': 'https://instagram.com'
 };
