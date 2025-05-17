@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favortios</title>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="menu_div">
+            <ul class="menu">
+                <li id="drop_down_icon">
+                    <a class="link_index" role="link" tabindex="0"><div><img src="../assets/icons/menu_100dp_5B9279_FILL0_wght500_GRAD200_opsz48.png" title="Menu" alt="menu_png"></div></a>
+                </li>
+                <li>
+                    <a class="link_index" role="link" tabindex="0"><div><img src="../logo/pepe_frog-removebg-preview.png" title="Home" alt="home_png"></div></a>
+                </li>
+            </ul>
+            <ul class="drop_down_menu">
+                <li><a class="link_index" role="link" tabindex="0"><img src="../assets/icons/home_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" alt="home" title="home">Home</a></li>
+                <li><a class="link_subir_meme" role="link" tabindex="0"><img src="../assets/icons/publish_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png">Subir Meme</a></li>
+                <li><a class="link_inicio" role="link" tabindex="0"><img src="../assets/icons/login_100dp_5B9279_FILL0_wght400_GRAD200_opsz48.png" title="Inició">Inició</a></li>
+                <li><a class="link_ultimos" role="link" tabindex=0><img src="../assets/icons/schedule_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Ultimos">Últimos</a></li>
+                <li><a class="link_trending" role="link" tabindex="0"><img src="../assets/icons/mode_heat_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Trending">Trending</a></li>
+                <li><a class="link_aleatorio" role="link" tabindex="0"><img src="../assets/icons/shuffle_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Aleatorio">Aleatorio</a></li>
+                <li><a class="link_subidas" role="link" tabindex="0"><img src="../assets/icons/archive_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Mis subidas">Mis subidas</a></li>
+                <li><a class="link_ranking" role="link" tabindex="0"><img src="../assets/icons/military_tech_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Ranking">Ranking</a></li>
+            </ul>
+            <ul class="search">
+                <li>
+                    <button><img src="../assets/icons/contrast_100dp_5B9279_FILL0_wght400_GRAD0_opsz48.png"></button>
+                </li>
+                <li>
+                <label for="go_search"><button id="search_btn"><img src="../assets/icons/search_100dp_5B9279_FILL0_wght400_GRAD200_opsz48.png"></button></label>
+                </li>
+            </ul>
+        </div>
+        <div class="search_box">
+            <form method="post" action="">
+                <input type="search" id="go_search" name="search_tab" placeholder="Busca tus memes aqui...">
+            </form>
+        </div>
+        <div class="filter">
+            <select name="cronologico">
+                <option value="ultimos">Ultimós</option>
+                <option value="antiguos">Antiguos</option>
+            </select>
+            <select name="popularidad">
+                <option value="" disabled selected>---</option>
+                <option value="tendencia">Trending</option>
+                <option value="mas_vistos">Mas vistos</option>
+                <option value="mas_votados">Mas votados</option>
+                <option value="historicos">Historicos</option>
+                <option value="aleatorios">Aleatorios</option>
+            </select>
+            <button>Buscar</button>
+        </div>
+    </nav>
+</header>
+<main>
+  <section class="content">
+    <article class="post_body">
+        <header class="post_header">
+            <div class="contenedor_usuario">
+                <button><img src="../assets/icons/user_icon_black_100.png" title="usuario"></button><a class="link_inicio" role="link" tabindex="0">ManolodelBombo</a><button class="delete_icon"><img src="../assets/icons/heart_minus_100dp_BA1F33_FILL0_wght400_GRAD0_opsz48.png" title="Borrar Post"></button>
+            </div>
+            <div><a class="link_post" role="link" tabindex="0"><h1>Mi colega el Youtuber</h1></a></div>
+        </header>
+        <div class="post">
+            <a class="link_post" role="link" tabindex="0"><img src="../assets/memes/amigo_youtuber.webp" title="post"></a>
+        </div>
+        <div class="post_info">
+            <a class="link_inicio" role="link" tabindex="0">#Yotube</a>
+            <a class="link_inicio" role="link" tabindex="0">#Youtuber</a>
+            <a class="link_inicio" role="link" tabindex="0">#Pana</a>
+            <a class="link_inicio" role="link" tabindex="0">#Weon</a>
+            <a class="link_inicio" role="link" tabindex="0">#Amigo</a>
+        </div>
+        <div class="post_footer">
+            <div class="btn_comment"><button><img src="../assets/icons/comment_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="Añadir comentario"></button></div>
+            <div class="btn_rating">
+                <button><img src="../assets/icons/thumb_up_100dp_8FCB9B_FILL1_wght500_GRAD0_opsz48.png" title="Dar Like"></button>  
+                <div class="rating_container">
+                    <span class="percentage">70%</span>
+                    <span class="count">157</span>
+                </div>
+                <button><img src="../assets/icons/thumb_down_100dp_8B1A10_FILL1_wght500_GRAD0_opsz24.png" title="Dar Dislike"></button>
+            </div>
+            <div class="btn_share">
+                <button><img src="../assets/icons/share_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="compartir"></button>
+            </div>
+        </div>
+    </article>
+    <article class="post_body">
+        <header class="post_header">
+            <div class="contenedor_usuario">
+                <button><img src="../assets/icons/user_icon_black_100.png" title="usuario"></button><a class="link_inicio" role="link" tabindex="0">ManolodelBombo</a><button class="delete_icon"><img src="../assets/icons/heart_minus_100dp_BA1F33_FILL0_wght400_GRAD0_opsz48.png" title="Borrar Post"></button></div>
+            <div><a class="link_post" role="link" tabindex="0"><h1>Low-cost Yagami</h1></a></div>
+        </header>
+        <div class="post">
+            <a href="../views/post.html"><img src="../assets/memes/big_yagami.webp" title="post"></a>
+        </div>
+        <div class="post_info">
+            <a class="link_inicio" role="link" tabindex="0">#Death Note</a>
+            <a class="link_inicio" role="link" tabindex="0">#Anime</a>
+            <a class="link_inicio" role="link" tabindex="0">#Emo</a>
+            <a class="link_inicio" role="link" tabindex="0">#Boomer</a>
+            <a class="link_inicio" role="link" tabindex="0">#Wey</a>
+        </div>
+        <div class="post_footer">
+            <div class="btn_comment"><button><img src="../assets/icons/comment_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="Añadir comentario"></button></div>
+            <div class="btn_rating">
+                <button><img src="../assets/icons/thumb_up_100dp_8FCB9B_FILL1_wght500_GRAD0_opsz48.png" title="Dar Like"></button>  
+                <div class="rating_container">
+                    <span class="percentage">59%</span>
+                    <span class="count">86</span>
+                </div>
+                <button><img src="../assets/icons/thumb_down_100dp_8B1A10_FILL1_wght500_GRAD0_opsz24.png" title="Dar Dislike"></button>
+            </div>
+            <div class="btn_share">
+                <button><img src="../assets/icons/share_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="compartir"></button>
+            </div>
+        </div>
+    </article>
+    <article class="post_body">
+        <header class="post_header">
+            <div class="contenedor_usuario">
+                <button><img src="../assets/icons/user_icon_black_100.png" title="usuario"></button><a class="link_inicio" role="link" tabindex="0">ManolodelBombo</a><button class="delete_icon"><img src="../assets/icons/heart_minus_100dp_BA1F33_FILL0_wght400_GRAD0_opsz48.png" title="Borrar Post"></button></div>
+            <div><a class="link_post" role="link" tabindex="0" ><h1>Weeb Light Year</h1></a></div>
+        </header>
+        <div class="post">
+            <a class="link_post" role="link" tabindex="0"><img src="../assets/memes/buss_wed.webp" title="post"></a>
+        </div>
+        <div class="post_info">
+            <a class="link_inicio" role="link" tabindex="0">#Snoopdog</a>
+            <a class="link_inicio" role="link" tabindex="0">#Weeb</a>
+            <a class="link_inicio" role="link" tabindex="0">#drogi</a>
+            <a class="link_inicio" role="link" tabindex="0">#SnoopDog</a>
+            <a class="link_inicio" role="link" tabindex="0">#ToyStory</a>
+            <a class="link_inicio" role="link" tabindex="0">#BuzzLightYear</a>
+            <a class="link_inicio" role="link" tabindex="0">#Celebridad</a>
+            <a class="link_inicio" role="link" tabindex="0">#Dizfraz</a>
+            <a class="link_inicio" role="link" tabindex="0">#Carnaval</a>
+        </div>
+        <div class="post_footer">
+          <div class="btn_comment"><button><img src="../assets/icons/comment_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="Añadir comentario"></button></div>
+          <div class="btn_rating">
+              <button><img src="../assets/icons/thumb_up_100dp_8FCB9B_FILL1_wght500_GRAD0_opsz48.png" title="Dar Like"></button>  
+              <div class="rating_container">
+                  <span class="percentage">92%</span>
+                  <span class="count">340</span>
+              </div>
+              <button><img src="../assets/icons/thumb_down_100dp_8B1A10_FILL1_wght500_GRAD0_opsz24.png" title="Dar Dislike"></button>
+          </div>
+          <div class="btn_share">
+              <button><img src="../assets/icons/share_100dp_5B9279_FILL1_wght500_GRAD0_opsz48.png" title="compartir"></button>
+          </div>
+      </div>
+      </article>
+    <a href="#top">
+        <button  class="arrow_back_to_top">
+        <img src="../assets/icons/keyboard_arrow_up_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png" title="Volver Arriba">
+        </button>
+    </a>
+    <aside>
+      <section>
+          <h1>Tus Tags</h1>
+          <article>
+              <ul>
+                  <li><a href="#">#Amigo</a></li>
+                  <li><a href="#">#BichoPalp</a></li>
+                  <li><a href="#">#BuzzLightYear</a></li>
+                  <li><a href="#">#Celebridad</a></li>
+                  <li><a href="#">#Danky</a></li>
+                  <li><a href="#">#Weon</a></li>
+                  <li><a href="#">#Carnaval</a></li>
+                  <li><a href="#">#Boomer</a></li>
+                  <li><a href="#">#Snoopdog</a></li>
+                  <li><a href="#">#Anime</a></li>
+              </ul>
+          </article>
+      </section>
+  </aside>
+    <nav class="nav_paginas">
+      <div>
+          <button><img src="../assets/icons/arrow_back_ios_new_100dp_5B9279_FILL0_wght500_GRAD0_opsz48.png"></button>
+          <form method="post" action="">
+              <input type="number">
+          </form>
+          <button><img src="../assets/icons/arrow_forward_ios_100dp_5B9279_FILL0_wght500_GRAD0_opsz40.png"></button>
+      </div>
+  </nav>
+</main>
+<footer>
+    <p>&copy; 2024 Blog de Memes. Todos los derechos reservados... o al menos eso intentamos.</p>
+    <p>Síguenos en nuestras redes: <a class="link_twitter" role="link" tabindex="0">Twitter</a> | <a class="link_instagram" role="link" tabindex="0">Instagram</a></p>
+    <p>¿Problemas? <a href="#">Llora aquí</a>.</p>
+  </footer>      
+<script src="../javascript/index.js"></script>
+<script src="../javascript/links.js"></script>
+</body>
+</html>
